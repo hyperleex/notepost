@@ -1,0 +1,15 @@
+[project]
+name = "telegram_poster_bot_detailed"
+version = "0.1.0"
+description = "Detailed Telegram bot for scheduling posts"
+requires-python = ">=3.8"
+dependencies = [
+    "python-telegram-bot",
+    "SQLAlchemy",
+    "Alembic",
+    "python-dotenv",
+    "pytest",
+    "pytest-asyncio"
+]
+[project.optional-dependencies]
+dev = ["pytest", "pytest-asyncio"]
